@@ -22,6 +22,7 @@ In this chapter, I created a basic CNN model for MDD classification using the pr
 
 ## Chapter 3: Swarm Learning with HPE
 This chapter focuses on the distribution of data among peers in a swarm learning solution provided by HPE. Unfortunately, due to confidentiality agreements from my internship at HPE, I can't share specific implementation details or outputs. However, I can confirm that the results were comparable to those achieved by the local algorithm.
+
 <img src="https://github.com/42elenz/DepressionClassification_DL/blob/master/Aufbau1.png" width=50%>
 
 <img src="https://github.com/42elenz/DepressionClassification_DL/blob/master/Aufbau2.png" width=50%>
@@ -29,7 +30,6 @@ This chapter focuses on the distribution of data among peers in a swarm learning
 ## Chapter 4: Diffusion Model for EEG Generation
 In this chapter, I developed my own diffusion model tailored to work with 2D EEG data. The model performed well, successfully reproducing EEG signals with some notable observations:
 - Specific noising step for EEG data
-- 
 <img src="https://github.com/42elenz/DepressionClassification_DL/blob/master/diffusionprocess.png" width=50%>
 
 - Overfitting on a single EEG file yields the same EEG with a bit of noise which proves the functionallty of my U-Net
